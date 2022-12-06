@@ -62,48 +62,47 @@ void child::login()
 {
 p:
 	system("cls");
-	emp::menu();
-	/*char ch;
-	string user,pass;
-	cout<<"\n\n\n";
-	cout<<"\n\n\t\t\t=============================";
-	cout<<"\n\n\t\t\t        Login Process";
-	cout<<"\n\n\t\t\t=============================";
-	cout<<"\n\n\n Enter User Name : ";
-	cin>>user;
-	cout<<"\n\n Enter Password : ";
-	for(int i=0; i < 3; i++)
+	char ch;
+	string user, pass;
+	cout << "\n\n\n";
+	cout << "\n\n\t\t\t=============================";
+	cout << "\n\n\t\t\t        Login Process";
+	cout << "\n\n\t\t\t=============================";
+	cout << "\n\n\n Enter User Name : ";
+	cin >> user;
+	cout << "\n Enter Password : ";
+	for (int i = 0; i < 3; i++)
 	{
-		pass+= getch();
-		cout<<"*";
+		pass += getch();
+		cout << "*";
 	}
-	if(user == "Arfan" && pass == "888")
+	if (user == "Arfan" && pass == "888")
 	{
-		cout<<"\n\n\n\t\t\tCongratulation Login Successfully...";
-		cout<<"\n\n\n\t\t\t\t\tLoading";
-		for(int i=1;i<=6;i++)
+		cout << "\n\n\n\t\t\tCongratulation Login Successfully...";
+		cout << "\n\n\n\t\t\t\t\tLoading";
+		for (int i = 1; i <= 6; i++)
 		{
 			Sleep(300);
-			cout<<".";
+			cout << ".";
 		}
 		emp::menu();
 	}
-	else if(user != "Arfan" && pass == "888")
+	else if (user != "Arfan" && pass == "888")
 	{
-		cout<<"\n\n\n Your User Name is Wrong....";
+		cout << "\n\n\n\t\t\t Your User Name is Wrong....";
 		getch();
 		goto p;
 	}
-	else if(user == "Arfan" && pass != "888")
+	else if (user == "Arfan" && pass != "888")
 	{
-		cout<<"\n\n\n Your Password is Wrong....";
+		cout << "\n\n\n\t\t\t Your Password is Wrong....";
 		getch();
 		goto p;
 	}
 	else
 	{
-		cout<<"\n\n\n User Name & Password Both are Wrong....";
-	}*/
+		cout << "\n\n\n\t\t\t User Name & Password Both are Wrong....";
+	}
 }
 void child::main_menu()
 {

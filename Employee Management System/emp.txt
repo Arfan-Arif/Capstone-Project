@@ -1,3 +1,4 @@
-10 Arfan 60000 Mirpur 012548963
 11 Sowrov 50500 Rupnogor 01456922
 12 Nahin 40000 Sodorghat 01144875
+13 Borsha 15000 Charabag 01478226
+14 Ayon 25000 khagan 0479123
